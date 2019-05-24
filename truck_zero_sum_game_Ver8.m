@@ -6,7 +6,7 @@
 
 %% Get Attacker Position Details
 clear all; close all; clc;
-N                                  = 10;                                           % Number of total following trucks
+N                                  = 5;                                           % Number of total following trucks
 truck_vector                       = 1:N;
 total_attackers                    = 3;
 [attacker_position, gamma_record]  = get_attacker_positions_Ver2(N);
